@@ -314,8 +314,10 @@ body {
   margin-top: 16px;
 }
 .team-social-link {
-  display: inline-flex;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
   color: var(--icon-color);
@@ -412,8 +414,9 @@ body {
   margin-top: 20px;
 }
 .footer-social-link {
-  display: inline-flex;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   color: var(--white-color);
